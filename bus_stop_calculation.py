@@ -1,7 +1,17 @@
-import itertools
+
 """
 busStop, a 2D array representing the IDs of the bus stations having a bus operating between them.
+Input 
+
+4 2
+2 6
+3 7
+8 12
+11 15
+
+op - 12
 """
+import itertools
 def distanceCovered(busStops):
     busStops_list = [item for sublist in busStops for item in sublist]
     result_list = []
